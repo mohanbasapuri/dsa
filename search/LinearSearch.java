@@ -3,7 +3,7 @@ package search;
 public class LinearSearch {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
-        int target = 6;
+        int target = 2;
         System.out.println("target found at the index : " + linearSearch_level1(arr, target));
     }
 

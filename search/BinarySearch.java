@@ -3,11 +3,11 @@ package search;
 public class BinarySearch {
 
     public static void main(String[] args) {
-   //   int[] arr = {6, 5, 4, 3, 2, 1}; //descending array
-        int [] arr = {1,2,3,4,5,6}; //ascending array
+        //   int[] arr = {6, 5, 4, 3, 2, 1}; //descending array
+        int[] arr = {1, 2, 3, 4, 5, 6}; //ascending array
         int target = 3;
         int index = binarySearch(arr, target);
-        System.out.println(index + " is index of search element: "+ target);
+        System.out.println(index + " is index of search element: " + target);
     }
 
     private static int binarySearch(int[] arr, int target) {
